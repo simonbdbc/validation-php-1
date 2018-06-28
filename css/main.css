@@ -1,0 +1,124 @@
+body {
+    font: normal 18px/1.5 "Roboto", "Fira Sans", "Helvetica Neue", sans-serif;
+    background: #fff;
+    color: #000;
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.red {
+    border: 2px solid red;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+.container-colonne {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.fruits {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.fruits>.button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    padding: 0;
+    margin: 10px;
+    cursor: pointer;
+    width: 20%;
+}
+
+.fruits>.button>label {
+    cursor: pointer;
+}
+
+.fruits>.button:hover {
+    border: 1px solid white;
+}
+
+.fruits>.button>img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+form#panier {
+    width: 100%;
+}
+
+.liste.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.liste > .article {
+    display: flex;
+    flex: 1;
+    width: 85%;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-titre {
+    margin: 100px 0 50px 0;
+}
+.home-btn {
+    margin: 100px 0 0 0;
+}
